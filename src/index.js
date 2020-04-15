@@ -1,7 +1,7 @@
-const pascalTriangule = require('./pascalTriangule'); 
+const pascalTriangle = require('./pascalTriangle'); 
 
 function main(){
-    const number = pascalTriangule(64);
+    const number = pascalTriangle(64);
 
     console.log(number);
 }
