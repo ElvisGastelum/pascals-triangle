@@ -13,6 +13,19 @@ $ git clone https://github.com/ElvisGastelum/pascals-triangle.git
 $ cd pascals-triangle
 ```
 ### Create the .env file to specify the number of rows to generate with the algorithm 
+Example:
+```
+├── .env    <--- (This is the new file)
+├── Dockerfile
+├── package.json
+├── package-lock.json
+├── README.md
+└── src
+    ├── index.js
+    └── pascalTriangle.js
+```
+
+.env
 ```
 ROWS=rows-to-generate
 ```
