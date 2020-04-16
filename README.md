@@ -6,7 +6,7 @@ To run this script, you must have Docker installed on your computer, learn more 
 ## Instructions for use this repository
 ### Clone repository
 ```
-$ git clone https://github.com/ElvisGastelum/pascals-triangule.git
+$ git clone https://github.com/ElvisGastelum/pascals-triangle.git
 ```
 ### Enter in folder
 ```
