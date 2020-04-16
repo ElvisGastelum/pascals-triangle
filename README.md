@@ -12,6 +12,10 @@ $ git clone https://github.com/ElvisGastelum/pascals-triangule.git
 ```
 $ cd pascals-triangle
 ```
+### Create the .env file to specify the number of rows to generate with the algorithm 
+```
+ROWS=rows-to-generate
+```
 
 ### Build image
 ```

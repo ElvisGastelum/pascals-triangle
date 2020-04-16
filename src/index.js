@@ -3,6 +3,8 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const number = pascalTriangle(process.env.NUMBER);
+const NUMBER_ROWS = process.env.ROWS;
 
-console.log(number);
+const result = pascalTriangle(NUMBER_ROWS);
+
+console.log(result);
