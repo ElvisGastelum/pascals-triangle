@@ -1,10 +1,14 @@
 {
   "name": "pascals-triangle",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple package to resolve the pascal triangle",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElvisGastelum/pascals-triangle"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",

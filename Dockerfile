@@ -10,4 +10,4 @@ COPY ./src ./src
 
 COPY .env .env
 
-CMD [ "node", "src/index.js" ]
+CMD [ "npm", "start" ]
