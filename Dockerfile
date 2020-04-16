@@ -8,6 +8,6 @@ RUN npm install
 
 COPY ./src ./src
 
-COPY .env .env
+ENV ROWS=6
 
 CMD [ "npm", "start" ]

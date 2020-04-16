@@ -1,7 +1,4 @@
 const pascalTriangle = require("./pascalTriangle");
-const dotenv = require("dotenv");
-
-dotenv.config();
 
 const NUMBER_ROWS = process.env.ROWS;
 
