@@ -1,9 +1,8 @@
-const pascalTriangle = require('./pascalTriangle'); 
+const pascalTriangle = require("./pascalTriangle");
+const dotenv = require("dotenv");
 
-function main(){
-    const number = pascalTriangle(5);
+dotenv.config();
 
-    console.log(number);
-}
+const number = pascalTriangle(process.env.NUMBER);
 
-main();
+console.log(number);
